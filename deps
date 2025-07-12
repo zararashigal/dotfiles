@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Dependencies uwu
+sudo pacman -S niri waybar kitty wofi swaylock swaybg nerd-fonts kvantum
+yay -S swayosd grimshot catppuccin-gtk-theme-mocha
+
+# Build and apply! :3
+mkdir BUILD
+mkdir ~/.config/kitty
+mkdir ~/.config/kitty/themes/
+cd ./BUILD
+git clone https://github.com/catppuccin/kitty
+cp -rf ./kitty/themes/* ~/.config/kitty/themes/
+kitty +kitten themes --reload-in=all "Catppuccin Kitty Mocha"
+git clone https://github.com/catppuccin/Kvantum
+mkdir ~/.config/Kvantum
+cp -rf ./Kvantum/themes/catppuccin-mocha-pink ~/.config/Kvantum/catppuccin-mocha-pink
+kvantummanager --set catppuccin-mocha-pink

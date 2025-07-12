@@ -1,0 +1,3 @@
+#!/bin/bash
+exec swaybg -i $HOME/dotfiles/wp &
+exec waybar -c $HOME/dotfiles/.config/waybar/config -s $HOME/dotfiles/.config/waybar/style.css
