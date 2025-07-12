@@ -42,7 +42,7 @@
 	"custom/launcher": {
 		"format": "",
 		"tooltip": "Launch Apps",
-		"on-click": "wofi --show drun -o DP-3 --style $HOME/.wfrc/flavors/mocha/style.css",
+		"on-click": "wofi --show drun -o DP-3 --style $HOME/dotfiles/.wfrc/flavors/mocha/style.css",
 		"interval": 0
 	},
 
