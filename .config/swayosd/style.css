@@ -1,0 +1,17 @@
+/* Catppuccin theme for swayOSD by Zarashigal UwU */
+
+window#osd {
+  background: #1e1e2e;
+  color: #f5c2e7;
+  border-radius: 2em;
+  padding: 0;
+}
+
+label, image {
+    color: #f5c2e7;
+}
+
+progress {
+    background: #f5c2e7;
+    background: linear-gradient(270deg, #F5C2E8, #B4BEFE);
+}
