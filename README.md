@@ -9,6 +9,5 @@ SwayOSD:
 <br />
 <img width="259" height="117" alt="image" src="https://github.com/user-attachments/assets/6d9a3ad1-618a-4e25-bac2-36c050a1d384" />
 
-<br />
 ### Change the wallpaper:
 Replace "wp" with any png or jpg and rename it "wp" without any extensions
